@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Website</title>
+    <!-- Tailwind CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.18/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fontawesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Additional CSS files -->
+    <link rel="stylesheet" href="path/to/animation.css">
+    <link rel="stylesheet" href="path/to/custom-styles.css">
+</head>
+<body>
+    <header class="bg-gray-900 text-white">
+        <!-- Logo -->
+        <div class="flex items-center justify-center p-4">
+            <h1 class="text-2xl font-bold">Pet Website</h1>
+        </div>
+        <!-- Navigation Menu -->
+        <nav class="flex justify-center py-2">
+            <a href="#" class="px-4 py-2 hover:bg-gray-800">Home</a>
+            <a href="#" class="px-4 py-2 hover:bg-gray-800">Features</a>
+            <a href="#" class="px-4 py-2 hover:bg-gray-800">Testimonials</a>
+            <a href="#" class="px-4 py-2 hover:bg-gray-800">Blog</a>
+            <a href="#" class="px-4 py-2 hover:bg-gray-800">Contact</a>
+        </nav>
+    </header>
+    <section class="hero bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?pets');">
+        <!-- Headline -->
+        <div class="flex flex-col items-center justify-center text-white text-center p-8">
+            <h2 class="text-4xl font-bold">Find Your Perfect Pet</h2>
+            <p class="text-lg">Adopt love, adopt a pet.</p>
+            <a href="#" class="mt-4 btn btn-primary">Adopt Now</a>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="flex justify-center">
+            <!-- Feature Card 1 -->
+            <div class="card mx-4 p-8">
+                <i class="fas fa-paw text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold">Unique Pets</h3>
+                <p class="mt-2">Discover a variety of unique pets to bring joy to your life.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+            <!-- Feature Card 2 -->
+            <div class="card mx-4 p-8">
+                <i class="fas fa-hands-helping text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold">Rescue Pets</h3>
+                <p class="mt-2">Adopt one of our rescued pets and make a difference.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+            <!-- Feature Card 3 -->
+            <div class="card mx-4 p-8">
+                <i class="fas fa-heart text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold">Loving Care</h3>
+                <p class="mt-2">Our pets are provided with loving care and attention.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="individual-feature">
+        <!-- Individual Feature Section 1 -->
+        <div class="individual-feature-section bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?unique-pets');">
+            <div class="text-white text-center p-8">
+                <h3 class="text-2xl font-bold">Unique Pets</h3>
+                <p class="text-lg mt-2">Discover a variety of unique pets to bring joy to your life.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+        </div>
+        <!-- Individual Feature Section 2 -->
+        <div class="individual-feature-section bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?rescue-pets');">
+            <div class="text-white text-center p-8">
+                <h3 class="text-2xl font-bold">Rescue Pets</h3>
+                <p class="text-lg mt-2">Adopt one of our rescued pets and make a difference.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+        </div>
+        <!-- Individual Feature Section 3 -->
+        <div class="individual-feature-section bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?loving-care');">
+            <div class="text-white text-center p-8">
+                <h3 class="text-2xl font-bold">Loving Care</h3>
+                <p class="text-lg mt-2">Our pets are provided with loving care and attention.</p>
+                <a href="#" class="mt-4 btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="flex justify-center">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card mx-4 p-8">
+                <i class="fas fa-quote-left text-2xl"></i>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper eros non tortor sodales semper. Sed quis nunc consequat, rutrum purus sit amet, vestibulum nisi.</p>
+                <div class="mt-4">
+                    <h4 class="font-bold">John Doe</h4>
+                    <p class="text-gray-600">Pet Owner</p>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card mx-4 p-8">
+                <i class="fas fa-quote-left text-2xl"></i>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper eros non tortor sodales semper. Sed quis nunc consequat, rutrum purus sit amet, vestibulum nisi.</p>
+                <div class="mt-4">
+                    <h4 class="font-bold">Jane Smith</h4>
+                    <p class="text-gray-600">Pet Lover</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="flex justify-center">
+            <!-- Blog Post 1 -->
+            <div class="blog-post mx-4 p-8">
+                <h3 class="text-2xl font-bold">10 Tips for Choosing the Perfect Pet</h3>
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper eros non tortor sodales semper.</p>
+                <a href="#" class="mt-4 btn btn-primary">Read More</a>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="blog-post mx-4 p-8">
+                <h3 class="text-2xl font-bold">How to Train Your Pet in 30 Days</h3>
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper eros non tortor sodales semper.</p>
+                <a href="#" class="mt-4 btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="flex justify-center">
+            <!-- FAQ 1 -->
+            <div class="faq-card mx-4 p-8">
+                <h4 class="text-xl font-bold">Can I adopt a pet without previous experience?</h4>
+                <p class="mt-2">Yes, you can adopt a pet without previous experience. Our team will provide guidance and support to help you become a responsible pet owner.</p>
+            </div>
+            <!-- FAQ 2 -->
+            <div class="faq-card mx-4 p-8">
+                <h4 class="text-xl font-bold">What age range of pets do you have available for adoption?</h4>
+                <p class="mt-2">We have pets of various ages available for adoption. From puppies and kittens to senior pets, you can choose according to your preference.</p>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <!-- Team Member 1 -->
+        <div class="team-member bg-gray-100 text-center">
+            <img src="path/to/photo1.jpg" alt="Team Member 1">
+            <h4 class="font-bold">John Doe</h4>
+            <p class="mt-2">CEO</p>
+            <div class="mt-4">
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="team-member bg-gray-100 text-center">
+            <img src="path/to/photo2.jpg" alt="Team Member 2">
+            <h4 class="font-bold">Jane Smith</h4>
+            <p class="mt-2">CFO</p>
+            <div class="mt-4">
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="flex justify-center items-center p-8">
+            <h3 class="text-2xl font-bold">Subscribe to Our Newsletter</h3>
+            <form class="form mt-4 flex">
+                <input type="email" placeholder="Enter your email" class="rounded-l-lg px-4 py-2 focus:outline-none">
+                <button type="submit" class="rounded-r-lg bg-blue-500 text-white px-4 py-2">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="flex justify-center items-center p-8">
+            <form class="form">
+                <div class="mb-4">
+                    <label for="name" class="block text-xl font-bold">Name</label>
+                    <input type="text" id="name" class="rounded-lg px-4 py-2 focus:outline-none" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-xl font-bold">Email</label>
+                    <input type="email" id="email" class="rounded-lg px-4 py-2 focus:outline-none" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-xl font-bold">Message</label>
+                    <textarea id="message" rows="4" class="rounded-lg px-4 py-2 focus:outline-none" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section class="map">
+        <!-- Google Maps Section -->
+        <div id="map"></div>
+        <!-- Google Maps API Script -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <!-- Custom JavaScript for Google Maps Integration -->
+        <script src="path/to/custom-map-script.js"></script>
+    </section>
+    <footer class="bg-gray-900 text-white">
+        <div class="flex justify-center py-4">
+            <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="mx-2 text-gray-500 hover:text-gray-800"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="text-center pb-4">&copy; 2022 Pet Website. All rights reserved.</p>
+    </footer>
+    <!-- Additional CSS and JavaScript Files -->
+    <script src="path/to/jquery.min.js"></script>
+    <script src="path/to/animation.min.js"></script>
+    <script src="path/to/custom-scripts.js"></script>
+</body>
+</html>
